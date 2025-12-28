@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Logs
+*.log
+
+# Checkpoint files (from extraction)
+checkpoint.json
+
+# Temporary files
+*.tmp
+*.bak
+temp/
+tmp/
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Don't ignore these important files
+!output.json
+!ground_truth.json
+!emails_input.json
+!port_codes_reference.json
+!requirements.txt
+!.env.example
